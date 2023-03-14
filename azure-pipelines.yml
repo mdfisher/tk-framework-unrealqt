@@ -24,18 +24,18 @@ jobs:
   strategy:
     matrix:
       # Define all the platform/python version we need
-      MacPython37:
-        platform: 'osx'  # Short name for us
-        imageName: 'macOS-10.15'
-        python.version: '3.7'
+      # MacPython37:
+      #   platform: 'osx'  # Short name for us
+      #   imageName: 'macOS-10.15'
+      #   python.version: '3.7'
       WinPython37:
         platform: 'win' # Short name for us
         imageName: 'windows-2019'
         python.version: '3.7'
-      LinuxPython37:
-        platform: 'linux'  # Short name for us
-        imageName: 'ubuntu-latest'
-        python.version: '3.7'
+      # LinuxPython37:
+      #   platform: 'linux'  # Short name for us
+      #   imageName: 'ubuntu-latest'
+      #   python.version: '3.7'
     maxParallel: 1
 
   pool:
